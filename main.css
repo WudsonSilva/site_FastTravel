@@ -21,7 +21,21 @@ body, input, textarea {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
 }
+
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 
 header nav li {
     display: inline;
@@ -36,6 +50,7 @@ header nav li a {
 
 .container {
     max-width: 1280px;
+    padding: 0 20 px;
     width: 100%;
     margin: 0 auto;
 }
@@ -94,6 +109,12 @@ form button {
     cursor: pointer;
 }
 
+textarea {
+    resize: none;
+    height: 100px;
+    width: 280px;
+}
+
 form button:hover {
     background-color:rgb(255, 45, 45);
 }
@@ -107,11 +128,6 @@ html, body {
     margin: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 footer {
     margin-top: auto;
     background-color: rgb(253, 237, 237);
@@ -119,4 +135,36 @@ footer {
     padding: 16px 0;
     text-align: 80px;
     width: 100%;
+}
+
+.service-card {
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 20px;
+}
+
+.sobre {
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 20px;
+}
+
+
+.atuação {
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 20px;
+}
+
+.mapa {
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-left: 160px;
+}
+
+
+section h3 {
+    font-size: 20px;
 }
